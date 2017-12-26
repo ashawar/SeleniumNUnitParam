@@ -54,7 +54,7 @@ namespace SeleniumNUnitParam
 
             //Assert.IsTrue(driver.FindElement(By.XPath("(//button[@type='button'])[6]")).Displayed);
             System.Threading.Thread.Sleep(5000);
-            Assert.That(Driver.PageSource.Contains("Ahmad Chayati"), Is.EqualTo(true),
+            Assert.That(Driver.PageSource.Contains("Ahmad Chayati"), Is.EqualTo(false),
                                             "The text Ahmad Chayati doest not exist");
         }
         private bool IsElementPresent(By by)

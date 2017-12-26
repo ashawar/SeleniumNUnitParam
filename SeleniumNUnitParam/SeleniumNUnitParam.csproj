@@ -65,6 +65,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Base.cs" />
+    <Compile Include="SimpleStrataTests.cs" />
     <Compile Include="BrowserTest.cs" />
     <Compile Include="Hooks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
